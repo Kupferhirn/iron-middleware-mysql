@@ -10,4 +10,7 @@ homepage = "https://github.com/Fiedzia/iron-middleware-mysql"
 
 [dependencies]
 iron = "0.4.0"
-mysql = "7.0.0"
+
+[dependencies.mysql]
+version = "7.0.0"
+default-features = false
